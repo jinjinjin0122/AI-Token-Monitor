@@ -1,0 +1,8 @@
+{
+  "crons": [
+    {
+      "path": "/api/snapshot/market?secret=aimonitor307664",
+      "schedule": "0 22 * * 1-5"
+    }
+  ]
+}
