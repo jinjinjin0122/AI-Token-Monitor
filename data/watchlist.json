@@ -1,0 +1,23 @@
+[
+  { "symbol": "NVDA", "name": "NVIDIA", "theme": "GPU / AI networking", "priority": "Core" },
+  { "symbol": "AVGO", "name": "Broadcom", "theme": "ASIC / AI networking", "priority": "Core" },
+  { "symbol": "AMD", "name": "AMD", "theme": "GPU challenger", "priority": "High beta" },
+  { "symbol": "MRVL", "name": "Marvell", "theme": "ASIC / optical networking", "priority": "High beta" },
+  { "symbol": "ANET", "name": "Arista Networks", "theme": "AI Ethernet", "priority": "Core" },
+  { "symbol": "MU", "name": "Micron", "theme": "HBM / memory", "priority": "Core" },
+  { "symbol": "TSM", "name": "TSMC ADR", "theme": "Foundry / advanced packaging", "priority": "Core" },
+  { "symbol": "AMAT", "name": "Applied Materials", "theme": "Semi equipment", "priority": "Core" },
+  { "symbol": "ASML", "name": "ASML", "theme": "Lithography", "priority": "Core" },
+  { "symbol": "MSFT", "name": "Microsoft", "theme": "AI cloud / apps", "priority": "Core" },
+  { "symbol": "GOOGL", "name": "Alphabet", "theme": "AI cloud / TPU / apps", "priority": "Core" },
+  { "symbol": "AMZN", "name": "Amazon", "theme": "AWS AI cloud", "priority": "Core" },
+  { "symbol": "ORCL", "name": "Oracle", "theme": "AI cloud capacity", "priority": "High beta" },
+  { "symbol": "VRT", "name": "Vertiv", "theme": "Power / cooling", "priority": "High beta" },
+  { "symbol": "ETN", "name": "Eaton", "theme": "Electrical infrastructure", "priority": "Core" },
+  { "symbol": "GEV", "name": "GE Vernova", "theme": "Grid / power generation", "priority": "Core" },
+  { "symbol": "CEG", "name": "Constellation Energy", "theme": "Nuclear / power", "priority": "Core" },
+  { "symbol": "NOW", "name": "ServiceNow", "theme": "AI workflow app", "priority": "App layer" },
+  { "symbol": "PLTR", "name": "Palantir", "theme": "AI platform", "priority": "High beta" },
+  { "symbol": "ADBE", "name": "Adobe", "theme": "Creative AI app", "priority": "App layer" },
+  { "symbol": "CRM", "name": "Salesforce", "theme": "Enterprise AI app", "priority": "App layer" }
+]

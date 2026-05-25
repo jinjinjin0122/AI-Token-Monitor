@@ -1,0 +1,46 @@
+:root { --bg: #f8fafc; --card: #ffffff; --text: #0f172a; --muted: #64748b; --border: #e2e8f0; --blue: #2563eb; --green: #047857; --red: #be123c; --amber: #b45309; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+a { color: var(--blue); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.container { max-width: 1440px; margin: 0 auto; padding: 28px; }
+.header { display: flex; justify-content: space-between; gap: 20px; align-items: end; margin-bottom: 24px; }
+.badge { display: inline-flex; align-items: center; border: 1px solid var(--border); border-radius: 999px; padding: 4px 10px; font-size: 12px; color: var(--muted); background: #fff; }
+h1 { font-size: 42px; line-height: 1.1; margin: 12px 0 8px; letter-spacing: -0.03em; }
+.subtitle { max-width: 780px; color: var(--muted); line-height: 1.7; margin: 0; }
+.warning { border: 1px solid #fde68a; background: #fffbeb; color: #92400e; border-radius: 18px; padding: 14px 16px; max-width: 420px; font-size: 14px; line-height: 1.5; }
+.grid4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-bottom: 18px; }
+.card { background: var(--card); border: 1px solid var(--border); border-radius: 20px; box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04); }
+.card.pad { padding: 18px; }
+.metric { padding: 18px; }
+.metric .label { color: var(--muted); font-size: 13px; }
+.metric .value { font-size: 26px; font-weight: 700; margin-top: 6px; }
+.metric .note { color: var(--muted); font-size: 12px; margin-top: 4px; }
+.tabs { display: flex; gap: 8px; background: white; padding: 6px; border-radius: 18px; border: 1px solid var(--border); margin: 22px 0; position: sticky; top: 0; z-index: 3; }
+.tab { flex: 1; border: 0; background: transparent; border-radius: 14px; padding: 11px 12px; cursor: pointer; color: var(--muted); font-weight: 600; }
+.tab.active { background: #0f172a; color: white; }
+.toolbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 16px; flex-wrap: wrap; }
+.buttons { display: flex; gap: 8px; flex-wrap: wrap; }
+button.small { border: 1px solid var(--border); background: #fff; border-radius: 999px; padding: 7px 11px; cursor: pointer; }
+button.small.active { background: #0f172a; color: #fff; }
+input { border: 1px solid var(--border); border-radius: 999px; padding: 10px 14px; min-width: 260px; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th { text-align: left; font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; border-bottom: 1px solid var(--border); padding: 12px 10px; white-space: nowrap; }
+td { border-bottom: 1px solid #eef2f7; padding: 12px 10px; vertical-align: top; line-height: 1.45; }
+tr:hover td { background: #f8fafc; }
+.scroll { overflow-x: auto; }
+.status { display: inline-flex; border-radius: 999px; padding: 4px 9px; font-size: 12px; background: #f1f5f9; color: #334155; }
+.status.core { background: #ecfdf5; color: #047857; }
+.status.beta { background: #fff7ed; color: #c2410c; }
+.status.app { background: #eff6ff; color: #1d4ed8; }
+.green { color: var(--green); font-weight: 600; }
+.red { color: var(--red); font-weight: 600; }
+.muted { color: var(--muted); }
+.cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.resource { padding: 16px; }
+.resource h3 { margin: 10px 0 8px; font-size: 16px; line-height: 1.35; }
+.tags { display: flex; gap: 6px; flex-wrap: wrap; }
+.tag { background: #f1f5f9; color: #475569; font-size: 12px; padding: 4px 8px; border-radius: 999px; }
+.footer-note { margin-top: 18px; color: var(--muted); font-size: 13px; line-height: 1.6; }
+@media (max-width: 980px) { .header { flex-direction: column; align-items: stretch; } .grid4 { grid-template-columns: repeat(2, 1fr); } .cards { grid-template-columns: repeat(2, 1fr); } h1 { font-size: 34px; } }
+@media (max-width: 640px) { .container { padding: 18px; } .grid4 { grid-template-columns: 1fr; } .cards { grid-template-columns: 1fr; } .tabs { overflow-x: auto; } .tab { min-width: 140px; } }
